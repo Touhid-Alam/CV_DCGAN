@@ -18,6 +18,8 @@ This repository contains the implementation of a **Deep Convolutional Generative
 The **Cancer-Net-PCa dataset**, sourced from [Kaggle](https://www.kaggle.com/datasets/cancer-net-pca), contains **8,412 instances** across **10 classes** of prostate cancer images. The dataset is used to train the DCGAN for synthetic image generation.
 
 ## Methodology
+![Fig 1](https://github.com/user-attachments/assets/aaf0c900-b13f-44e6-9d6a-170544c67ab5)
+
 ### 1. **Generator Architecture**
 The generator is designed to produce high-resolution synthetic images. It consists of **25 layers** and **51,868,035 parameters**. Key components include:
 - **Input Layer**: Accepts a latent vector of size `NOISE_DIM = 150`.
